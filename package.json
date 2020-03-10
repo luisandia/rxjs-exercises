@@ -1,0 +1,22 @@
+{
+  "name": "rxjs-excercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "rxjs": "^6.5.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.1.2",
+    "css-loader": "^3.2.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --port=8081"
+  },
+  "author": "",
+  "license": "ISC"
+}
